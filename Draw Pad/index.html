@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawPad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+
+    <div class="title" id="header">
+        <button class= UIButton id="toggleButton">DrawPad</button>
+    </div>
+    <div class="content-div main">
+        <div class="container0">
+            <div class="toggle">
+                <button class="reset">Reset</button>
+                <button class="clear">Clear</button>
+            </div>
+            <div class="default">
+                <div class="pen-bg-picker">
+                    <div class="color-picker">
+                        <!-- New to learn -->
+                        <input type="color" id="color-picker-pen" value = "#ffffff" >
+                        <label for="color-picker-pen">Pen Color</label>
+                    </div>
+                    <div class="color-picker">
+                        <!-- New to learn -->
+                        <input type="color" id="color-picker-bg" value = "#202020" > 
+                        <label for="color-picker-bg">Background Color</label>
+                    </div>
+                </div>
+                <button class="grid-line btn-on" id="GridLines">Remove Grid Lines</button>
+                <div class="grid-size">
+                    <div class="size-adjust">
+                        <p>Grid Size: 60 x 60</p>
+                        <input type="range" id="slider" min="1" max="120" value="60">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="toggle">
+                <div id="draw">
+                    <div class="title">Switch Pen</div>
+                    <button class="random">Random</button>
+                    <button class="rainbow">Rainbow</button>
+                    <button class="lighten">Lighten</button>
+                    <button class="darken">Darken</button>
+                    <button class="eraser">Eraser</button>
+                </div>
+                <div id="fill">
+                    <div class="title">Fill Color</div>
+                    <button class="area">Specific Area</button>
+                    <button class="full">Full Area</button>
+                </div>
+            </div>
+            <div class="grid"></div>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
