@@ -5,7 +5,7 @@
 
 - Ein Einfaches Zeichen Pad um mit der Programmierung Vertraut zu werden.
 
-- A simple Drwa Pad to become familiar with programming.
+- A simple Draw Pad to become familiar with programming.
 
 🔗 Live preview: [-link-](https://drawpadsimple.netlify.app/) 😊
 
