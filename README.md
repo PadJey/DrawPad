@@ -12,7 +12,10 @@
 
 # Funktionen / Features
 
-- ...
+- Color Picker, GridBlock and Adjusted Grid Size
+- UI Disable, Reset and Clear
+- Random, Rainbow, Darken, Lighten and Erase Pen
+- Fill and Specify Color
 - HTML, CSS & JS in UwU
 - Supported Updates for <50 years
 
